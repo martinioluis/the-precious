@@ -47,3 +47,12 @@
 .card-deck .card:hover .prenom2 {
   opacity: 1;
 }
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+footer ul {
+  list-style: none;
+}
