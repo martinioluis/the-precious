@@ -1,3 +1,26 @@
+/*----------------------------------- Font -----------------------------------*/
+@font-face {
+  font-family: "Pete Klassen";
+  src: url('pete-klassen_aniron/anicb___.ttf');
+}
+
+body {
+  font-family: "Pete Klassen";
+  background-image: url("dynamic-style/dynamic-style.png");
+}
+
+/*----------------------------- Navbar ----------------------------- */
+nav {
+  background-color: orange;
+}
+
+/*----------------------------- Carousel -----------------------------*/
+.carousel-caption {
+  bottom: 45%;
+}
+
+/*----------------------------- card hover -----------------------------*/
+
 .card-deck img {
   opacity: 0.40;
 }
@@ -25,7 +48,7 @@
 
 .card-deck .prenom2 {
   position: absolute;
-  top: 500px;
+  top: 200px;
   left: 30%;
   color: white;
   opacity: 0;
@@ -48,8 +71,81 @@
   opacity: 1;
 }
 
-footer {
+.card-deck .card {
   background-color: black;
+  border: solid 5px black;
+  border-radius: none;
+  color: grey;
+}
+
+.card-deck .card p {
+  font-size: 20px;
+}
+
+/*--------------------------------- container-captured ---------------------------------*/
+.container-captured {
+  background-color: black;
+  color: white;
+}
+
+.container-captured a {
+  color: orange;
+}
+
+.container-captured img {
+  border-radius: 100px;
+}
+
+/*--------------------------------- container-ring ---------------------------------*/
+.container-ring {
+  background-color: black;
+  color: white;
+}
+
+.container-ring .card {
+  margin-bottom: 5%;
+}
+
+.container-ring .card-body {
+  background-color: grey;
+  color: black;
+}
+
+.container-ring .card-header {
+background-color: orange;
+}
+
+.container-ring .card .card-body img {
+  width: 140px;
+  height: 140px;
+  border-radius: 100px;
+}
+
+/*-------------------------------- container-join ------------------------*/
+.container-join img {
+  width: 300px;
+
+}
+
+.container-join .row:nth-child(3) p {
+  color: orange;
+}
+
+/*------------------------------ container-contact ------------------------------*/
+.container-contact {
+  background-color: black;
+  color: white;
+}
+
+.container-contact img {
+  width: 70%;
+  height: 70%;
+}
+
+/*-------------------------------- footer --------------------------------*/
+
+footer {
+  background-color: orange;
   color: white;
 }
 
