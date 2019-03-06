@@ -20,9 +20,6 @@ nav {
 }
 
 /*----------------------------- card hover -----------------------------*/
-@media screen  {
-  
-}
 
 
 .card img {
@@ -67,7 +64,7 @@ nav {
   opacity: 0;
 }
 
-..card:hover .prenom1 {
+.card:hover .prenom1 {
   opacity: 0;
 }
 
